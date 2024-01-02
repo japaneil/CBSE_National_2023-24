@@ -2,7 +2,7 @@
 int m1a = 9; 
 int m1b = 10; 
 int m2a = 11; 
-int m2b = 12; c
+int m2b = 12; 
 char val; 
 
 void setup() { 
