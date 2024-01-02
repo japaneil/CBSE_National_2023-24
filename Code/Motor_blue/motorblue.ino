@@ -1,13 +1,16 @@
 
-﻿// Starting of Program 
 int m1a = 9; 
 int m1b = 10; 
 int m2a = 11; 
 int m2b = 12; c
-har val; 
+char val; 
 
 void setup() { 
-pinMode(m1a, OUTPUT); // Digital pin 10 set as output Pin pinMode(m1b, OUTPUT); // Digital pin 11 set as output Pin pinMode(m2a, OUTPUT); // Digital pin 12 set as output Pin pinMode(m2b, OUTPUT); // Digital pin 13 set as output Pin Serial.begin(9600);
+pinMode(m1a, OUTPUT); 
+pinMode(m1b, OUTPUT); 
+pinMode(m2a, OUTPUT); 
+pinMode(m2b, OUTPUT); 
+Serial.begin(9600);
 } 
 
 void loop() { 
@@ -17,7 +20,7 @@ val = Serial.read();
 Serial.println(val); 
 } 
 
-if( val == 'F') // Forward 
+if( val == 'F') 
 { 
 digitalWrite(m1a, HIGH); 
 digitalWrite(m1b, LOW); 
@@ -25,7 +28,7 @@ digitalWrite(m2a, HIGH);
 digitalWrite(m2b, LOW);
 } 
 
-else if(val == 'B') // Backward 
+else if(val == 'B')  
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, HIGH); 
@@ -33,7 +36,7 @@ digitalWrite(m2a, LOW);
 digitalWrite(m2b, HIGH); 
 } 
 
-else if(val == 'L') //Left 
+else if(val == 'L')
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, LOW); 
@@ -41,7 +44,7 @@ digitalWrite(m2a, HIGH);
 digitalWrite(m2b, LOW); 
 } 
 
-else if(val == 'R') //Right 
+else if(val == 'R') 
 { 
 digitalWrite(m1a, HIGH); 
 digitalWrite(m1b, LOW); 
@@ -49,7 +52,7 @@ digitalWrite(m2a, LOW);
 digitalWrite(m2b, LOW); 
 } 
 
-else if(val == 'S') //Stop 
+else if(val == 'S') 
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, LOW);
@@ -57,7 +60,7 @@ digitalWrite(m2a, LOW);
 digitalWrite(m2b, LOW); 
 } 
 
-else if(val == 'I') //Forward Right 
+else if(val == 'I') 
 { 
 digitalWrite(m1a, HIGH); 
 digitalWrite(m1b, LOW); 
@@ -65,7 +68,7 @@ digitalWrite(m2a, LOW);
 digitalWrite(m2b, LOW);
 } 
 
-else if(val == 'J') //Backward Right 
+else if(val == 'J') 
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, HIGH); 
@@ -73,7 +76,7 @@ digitalWrite(m2a, LOW);
 digitalWrite(m2b, LOW); 
 }
  
-else if(val == 'G') //Forward Left 
+else if(val == 'G') 
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, LOW); 
@@ -81,7 +84,7 @@ digitalWrite(m2a, HIGH);
 digitalWrite(m2b, LOW); 
 } 
 
-else if(val == 'H') //Backward Left 
+else if(val == 'H')
 { 
 digitalWrite(m1a, LOW); 
 digitalWrite(m1b, LOW); 
