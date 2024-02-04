@@ -4,3 +4,4 @@ Qualified for CBSE National Science Exhibition and Pariksha Pe Charcha 2024!
 Interviewed by DD National, The News Point, ANI and Republic Bharat!
 Interest of PM Narendra Modi ji and Education Minister Dharmendra Pradhan ji!
 
+<a href = "https://twitter.com/dpradhanbjp/status/1751912064862564361?t=sv6PkJ2Ez761uJu2phXvqQ&s=08">Education minister tweets about us!</a>
