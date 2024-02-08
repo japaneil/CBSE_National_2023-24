@@ -6,3 +6,4 @@ Interest of PM Narendra Modi ji and Education Minister Dharmendra Pradhan ji!
 
 <a href = "https://twitter.com/dpradhanbjp/status/1751912064862564361?t=sv6PkJ2Ez761uJu2phXvqQ&s=08">Education minister tweets about us!</a>
 <img src="images/WhatsApp Image 2024-01-30 at 14.07.55_da123058.jpg">
+<a href = "https://youtu.be/AJc9zXeCifE?si=gdTtmzNyscZxlDQ9">DD INDIA interview!</a>
